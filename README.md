@@ -21,10 +21,12 @@ Pada dasarnya, program ini menampilkan konsep Object-Oriented Programming (OOP) 
 ### Performance
 - Kelas yang berisi atribut dan metode terkait “performansi” (misalnya kodePerformance dan daftar GPU).
 - PcGaming mewarisi Performance sekaligus mewarisi Komputer (Multiple Inheritance), karena PC Gaming memerlukan atribut performa khusus dan menampung beberapa GPU.
+- Pada java kelas ini diubah menjadi Interface sehingga dapat di implementasikan ke kelas tujuan nya sebagai representasi Multiple Inheritance.
 
 ### Portable
 - Kelas yang menyimpan atribut “portabilitas” seperti kodePortable dan beratKG.
 - Laptop mewarisi Portable sekaligus mewarisi Komputer (Multiple Inheritance), karena laptop adalah komputer yang portabel.
+- Pada java kelas ini diubah menjadi Interface sehingga dapat di implementasikan ke kelas tujuan nya sebagai representasi Multiple Inheritance.
 
 ### PcGaming
 - Merupakan child class dari Komputer dan Performance (Multiple Inheritance).
@@ -41,8 +43,8 @@ Pada dasarnya, program ini menampilkan konsep Object-Oriented Programming (OOP) 
 
 ### Dari struktur di atas, kita dapat melihat beberapa pola OOP:
 - Hierarchical Inheritance: ProcessingUnit → CPU, ProcessingUnit → GPU, lalu Komputer → PcGaming, Komputer → Laptop.
-- Multiple Inheritance: PcGaming (turunan Komputer + Performance), Laptop (turunan Komputer + Portable).
-- Composition: Komputer memiliki sekumpulan komponen: CPU, RAM, Harddrive, GPU (disimpan dalam bentuk vector<Ram>, vector<Harddrive>, vector<Gpu>).
+- Multiple Inheritance: PcGaming (turunan Komputer + Performance), Laptop (turunan Komputer + Portable) dan Pada java dapat menggunakan interface untuk representasi Multiple Inheritance.
+- Composition: Komputer memiliki sekumpulan komponen: CPU, RAM, Harddrive, GPU.
 - Diagram singkatnya dapat diringkas sebagai berikut:
 ![Phase 1](DesainDiagram.jpg)
 
@@ -82,6 +84,7 @@ Pada dasarnya, program ini menampilkan konsep Object-Oriented Programming (OOP) 
 ![Phase 1](lang_cpp/Documentation/TP3_DokumCPP1.png)
 
 ## Dokumentasi Program Java
+![Phase 1](lang_java/Documentation/TP3_DokumJava1.png)
 
 ## Dokumentasi Program Python
 ![Phase 1](lang_py/Documentation/TP3_DokumPy1.png)
