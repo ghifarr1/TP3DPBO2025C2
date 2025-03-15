@@ -84,3 +84,4 @@ Pada dasarnya, program ini menampilkan konsep Object-Oriented Programming (OOP) 
 ## Dokumentasi Program Java
 
 ## Dokumentasi Program Python
+![Phase 1](lang_py/Documentation/TP3_DokumPy1.png)
